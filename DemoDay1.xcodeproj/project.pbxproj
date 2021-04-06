@@ -7,15 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D11D069261AB9F1006251E9 /* Page2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D11D067261AB9F1006251E9 /* Page2.storyboard */; };
+		7D11D06C261ABA3E006251E9 /* Page3.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D11D06B261ABA3E006251E9 /* Page3.storyboard */; };
+		7D11D06F261ABC0B006251E9 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D11D06E261ABC0B006251E9 /* ProfileViewController.swift */; };
+		7D11D072261ABCBE006251E9 /* PersonDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D11D071261ABCBE006251E9 /* PersonDetailViewController.swift */; };
+		7D11D077261AC4CA006251E9 /* DemoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D11D076261AC4CA006251E9 /* DemoTableViewController.swift */; };
+		7D11D07B261AC938006251E9 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D11D07A261AC938006251E9 /* CustomCell.swift */; };
+		7D4C2F4C261BFD2000AD0739 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4C2F4B261BFD2000AD0739 /* User.swift */; };
 		7D71943C2615726900CA6E26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D71943B2615726900CA6E26 /* AppDelegate.swift */; };
 		7D71943E2615726900CA6E26 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D71943D2615726900CA6E26 /* SceneDelegate.swift */; };
 		7D7194402615726900CA6E26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D71943F2615726900CA6E26 /* ViewController.swift */; };
 		7D7194432615726900CA6E26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D7194412615726900CA6E26 /* Main.storyboard */; };
 		7D7194452615726A00CA6E26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D7194442615726A00CA6E26 /* Assets.xcassets */; };
 		7D7194482615726A00CA6E26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D7194462615726A00CA6E26 /* LaunchScreen.storyboard */; };
+		7DB5AC97261C0E17002FCAEB /* DemoDay1Coredata.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7DB5AC95261C0E17002FCAEB /* DemoDay1Coredata.xcdatamodeld */; };
+		7DB5AC9D261C10FA002FCAEB /* Trainer+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB5AC99261C10FA002FCAEB /* Trainer+CoreDataClass.swift */; };
+		7DB5AC9E261C10FA002FCAEB /* Trainer+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB5AC9A261C10FA002FCAEB /* Trainer+CoreDataProperties.swift */; };
+		7DB5AC9F261C10FA002FCAEB /* Pokemon+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB5AC9B261C10FA002FCAEB /* Pokemon+CoreDataClass.swift */; };
+		7DB5ACA0261C10FA002FCAEB /* Pokemon+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB5AC9C261C10FA002FCAEB /* Pokemon+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7D11D068261AB9F1006251E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DemoDay1/Base.lproj/Page2.storyboard; sourceTree = "<group>"; };
+		7D11D06B261ABA3E006251E9 /* Page3.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Page3.storyboard; sourceTree = "<group>"; };
+		7D11D06E261ABC0B006251E9 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		7D11D071261ABCBE006251E9 /* PersonDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonDetailViewController.swift; sourceTree = "<group>"; };
+		7D11D076261AC4CA006251E9 /* DemoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTableViewController.swift; sourceTree = "<group>"; };
+		7D11D07A261AC938006251E9 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		7D4C2F4B261BFD2000AD0739 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		7D7194382615726900CA6E26 /* DemoDay1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoDay1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D71943B2615726900CA6E26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7D71943D2615726900CA6E26 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +43,11 @@
 		7D7194442615726A00CA6E26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D7194472615726A00CA6E26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D7194492615726A00CA6E26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DB5AC96261C0E17002FCAEB /* DemoDay1Coredata.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DemoDay1Coredata.xcdatamodel; sourceTree = "<group>"; };
+		7DB5AC99261C10FA002FCAEB /* Trainer+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Trainer+CoreDataClass.swift"; sourceTree = "<group>"; };
+		7DB5AC9A261C10FA002FCAEB /* Trainer+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Trainer+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		7DB5AC9B261C10FA002FCAEB /* Pokemon+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Pokemon+CoreDataClass.swift"; sourceTree = "<group>"; };
+		7DB5AC9C261C10FA002FCAEB /* Pokemon+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Pokemon+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +61,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7D4C2F42261BFC2100AD0739 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				7D7194412615726900CA6E26 /* Main.storyboard */,
+				7D4C2F47261BFC4800AD0739 /* Pages 1 */,
+				7D4C2F43261BFC3900AD0739 /* Pages 2 */,
+				7D4C2F49261BFC5600AD0739 /* Pages 3 */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		7D4C2F43261BFC3900AD0739 /* Pages 2 */ = {
+			isa = PBXGroup;
+			children = (
+				7D11D071261ABCBE006251E9 /* PersonDetailViewController.swift */,
+				7D11D06E261ABC0B006251E9 /* ProfileViewController.swift */,
+				7D11D067261AB9F1006251E9 /* Page2.storyboard */,
+			);
+			path = "Pages 2";
+			sourceTree = "<group>";
+		};
+		7D4C2F47261BFC4800AD0739 /* Pages 1 */ = {
+			isa = PBXGroup;
+			children = (
+				7D71943F2615726900CA6E26 /* ViewController.swift */,
+			);
+			path = "Pages 1";
+			sourceTree = "<group>";
+		};
+		7D4C2F49261BFC5600AD0739 /* Pages 3 */ = {
+			isa = PBXGroup;
+			children = (
+				7D11D07A261AC938006251E9 /* CustomCell.swift */,
+				7D11D076261AC4CA006251E9 /* DemoTableViewController.swift */,
+				7D4C2F4B261BFD2000AD0739 /* User.swift */,
+				7D11D06B261ABA3E006251E9 /* Page3.storyboard */,
+			);
+			path = "Pages 3";
+			sourceTree = "<group>";
+		};
 		7D71942F2615726900CA6E26 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +120,27 @@
 		7D71943A2615726900CA6E26 /* DemoDay1 */ = {
 			isa = PBXGroup;
 			children = (
+				7DB5ACA2261C110B002FCAEB /* CoreData */,
+				7D4C2F42261BFC2100AD0739 /* Pages */,
 				7D71943B2615726900CA6E26 /* AppDelegate.swift */,
 				7D71943D2615726900CA6E26 /* SceneDelegate.swift */,
-				7D71943F2615726900CA6E26 /* ViewController.swift */,
-				7D7194412615726900CA6E26 /* Main.storyboard */,
 				7D7194442615726A00CA6E26 /* Assets.xcassets */,
 				7D7194462615726A00CA6E26 /* LaunchScreen.storyboard */,
 				7D7194492615726A00CA6E26 /* Info.plist */,
 			);
 			path = DemoDay1;
+			sourceTree = "<group>";
+		};
+		7DB5ACA2261C110B002FCAEB /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				7DB5AC95261C0E17002FCAEB /* DemoDay1Coredata.xcdatamodeld */,
+				7DB5AC99261C10FA002FCAEB /* Trainer+CoreDataClass.swift */,
+				7DB5AC9A261C10FA002FCAEB /* Trainer+CoreDataProperties.swift */,
+				7DB5AC9B261C10FA002FCAEB /* Pokemon+CoreDataClass.swift */,
+				7DB5AC9C261C10FA002FCAEB /* Pokemon+CoreDataProperties.swift */,
+			);
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +202,8 @@
 			files = (
 				7D7194482615726A00CA6E26 /* LaunchScreen.storyboard in Resources */,
 				7D7194452615726A00CA6E26 /* Assets.xcassets in Resources */,
+				7D11D069261AB9F1006251E9 /* Page2.storyboard in Resources */,
+				7D11D06C261ABA3E006251E9 /* Page3.storyboard in Resources */,
 				7D7194432615726900CA6E26 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +215,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DB5AC97261C0E17002FCAEB /* DemoDay1Coredata.xcdatamodeld in Sources */,
 				7D7194402615726900CA6E26 /* ViewController.swift in Sources */,
+				7D11D077261AC4CA006251E9 /* DemoTableViewController.swift in Sources */,
+				7D11D072261ABCBE006251E9 /* PersonDetailViewController.swift in Sources */,
+				7D11D06F261ABC0B006251E9 /* ProfileViewController.swift in Sources */,
+				7DB5ACA0261C10FA002FCAEB /* Pokemon+CoreDataProperties.swift in Sources */,
+				7D4C2F4C261BFD2000AD0739 /* User.swift in Sources */,
+				7DB5AC9E261C10FA002FCAEB /* Trainer+CoreDataProperties.swift in Sources */,
+				7DB5AC9F261C10FA002FCAEB /* Pokemon+CoreDataClass.swift in Sources */,
 				7D71943C2615726900CA6E26 /* AppDelegate.swift in Sources */,
+				7DB5AC9D261C10FA002FCAEB /* Trainer+CoreDataClass.swift in Sources */,
+				7D11D07B261AC938006251E9 /* CustomCell.swift in Sources */,
 				7D71943E2615726900CA6E26 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,6 +234,14 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		7D11D067261AB9F1006251E9 /* Page2.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D11D068261AB9F1006251E9 /* Base */,
+			);
+			name = Page2.storyboard;
+			sourceTree = "<group>";
+		};
 		7D7194412615726900CA6E26 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -296,7 +392,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = AppleDeveloperAcademyBinus.DemoDay1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +411,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = AppleDeveloperAcademyBinus.DemoDay1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -341,6 +437,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7DB5AC95261C0E17002FCAEB /* DemoDay1Coredata.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7DB5AC96261C0E17002FCAEB /* DemoDay1Coredata.xcdatamodel */,
+			);
+			currentVersion = 7DB5AC96261C0E17002FCAEB /* DemoDay1Coredata.xcdatamodel */;
+			path = DemoDay1Coredata.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 7D7194302615726900CA6E26 /* Project object */;
 }

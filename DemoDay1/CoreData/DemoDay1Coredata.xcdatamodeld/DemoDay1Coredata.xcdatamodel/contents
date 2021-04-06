@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="20C69" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Pokemon" representedClassName="Pokemon" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="type" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="Trainer" representedClassName="Trainer" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Trainer" positionX="-63" positionY="-18" width="128" height="73"/>
+        <element name="Pokemon" positionX="263.732177734375" positionY="-22.59002685546875" width="128" height="73"/>
+    </elements>
+</model>
